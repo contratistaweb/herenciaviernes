@@ -1,6 +1,6 @@
-class ClassName:
+class People:
     
-    def __init__(self, *args):
+    def __init__(self, args):
         self.__name = args.name;
         self.__old = args.old;
         self.__phone = args.phone;
@@ -49,5 +49,5 @@ class ClassName:
     def email(self, email):
         self.__email = email
 
-    def hello(self):
-        print(f'Hi {self.name}')
+    def clasified(self, name):
+        print(f'Hi, my name is {name}')
